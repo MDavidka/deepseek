@@ -12,6 +12,10 @@ export const metadata: Metadata = {
   },
   description:
     'Lightning-fast cloud hosting with NVMe SSD, global CDN, and 24/7 expert support. From personal sites to enterprise — Nivle scales with you.',
+  icons: {
+    icon: '/favicon.svg',
+    shortcut: '/favicon.svg',
+  },
   keywords: [
     'cloud hosting',
     'web hosting',
