@@ -7,7 +7,8 @@ import { Check, ArrowRight, Zap } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from '@/components/ui/card';
-import { hostingPlans, formatCurrency } from '@/lib/data';
+import { hostingPlans } from '@/lib/data';
+import { formatCurrency } from '@/lib/utils';
 
 export function Pricing() {
   const [yearly, setYearly] = useState(true);
